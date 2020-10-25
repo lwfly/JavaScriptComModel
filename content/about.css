@@ -1,0 +1,53 @@
+.main_part_blackBack {
+    color: #222;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.main_part {
+    background-color: #181818;
+    background-attachment: fixed;
+    background-image: url("../image/about-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color:#ddd;
+    min-height: 600px;
+    padding:150px 0px 150px 0px;
+    position: relative;
+}
+
+.main_part_content {
+    float: left;
+    font-size: 14px;
+    padding:0px 15px 15px 0px;
+    position: relative;
+    width:100%;
+    color:#ddd;
+}
+.main_part_content2{
+    float: right;
+    width:50%;
+    padding:0px 15px 0px 15px;
+}
+.main_part_spacer {
+    height: 200px;
+}
+.main_part_h1 {
+    color:#fff;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 48px;
+    margin-block-end:45px;
+    margin-block-start:45px;
+    margin: 45px 0px 45px 0px;
+}
+.main_part_p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-block-end:20px;
+    margin-block-start:0px;
+    margin: 0px 0px 20px 0px;
+}
